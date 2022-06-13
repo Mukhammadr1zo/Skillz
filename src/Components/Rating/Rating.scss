@@ -1,0 +1,29 @@
+.rating {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #57d9a6;
+
+  &__container {
+    & img {
+      margin-bottom: 40px;
+    }
+
+    & blockquote {
+      margin-bottom: 37px;
+      max-width: 1006px;
+      font-style: italic;
+      font-size: 28px;
+      line-height: 42px;
+      text-align: center;
+      color: #1c1c33;
+    }
+
+    & p {
+      font-size: 18px;
+      line-height: 27px;
+      color: #4e4e65;
+      margin-bottom: 40px;
+    }
+    
+  }
+}
