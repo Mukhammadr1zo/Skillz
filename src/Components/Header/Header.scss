@@ -18,3 +18,18 @@
   }
 }
 
+@media only screen and (max-width: 460px) {
+  .site-header {
+    &__top {
+      padding-top: 4px;
+      padding-bottom: 4px;
+      & p {
+        font-size: 10px;
+      }
+    }
+    &__navbar {
+      padding-top: 15px !important;
+      padding-bottom: 15px !important;
+    }
+  }
+}

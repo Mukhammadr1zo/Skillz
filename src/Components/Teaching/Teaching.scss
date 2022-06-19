@@ -51,3 +51,35 @@
     margin-bottom: 48px;
   }
 }
+@media only screen and (max-width: 1040px) {
+  .teaching {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    &__inner {
+      flex-wrap: wrap !important;
+      justify-content: center;
+      gap: 25px;
+    }
+    &__img {
+      order: -1;
+    }
+  }
+}
+@media only screen and (max-width: 478px) {
+  .teaching {
+    &__right-side {
+      & p:nth-child(1) {
+        margin-bottom: 30px;
+      }
+      & h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 15px;
+      }
+    }
+    
+    &__description {
+      font-size: 16px;
+    }
+  }
+}
